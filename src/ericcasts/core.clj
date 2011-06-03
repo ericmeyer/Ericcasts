@@ -7,7 +7,7 @@
     [gaeshi.controllers :only (controller-router)]))
 
 (defroutes ericcasts-routes
-  (GET "/" [] (render-template "index"))
+  (GET "/" [] (render-template "podcasts/index"))
   (controller-router 'ericcasts.controller)
   (not-found (render-template "not_found" :template-root "ericcasts/view" :ns `ericcasts.view.view-helpers)))
 
