@@ -2,6 +2,12 @@
  [:img {:src "/images/gaeshi.png"}]
  [:h1 "Welcomes You!"]]
 
+[:table
+  [:tr
+    [:td "First"] [:td "Second"]]
+  [:tr
+    [:td "Third"] [:td "Fourth"]]]
+    
 [:h3 "Intro"]
 [:p "Gaeshi is a clojure framework for building Google AppEngine sites. The project home is at "
  [:a {:href "https://github.com/slagyr/gaeshi"} "https://github.com/slagyr/gaeshi"] "."
